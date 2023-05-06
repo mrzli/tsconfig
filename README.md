@@ -1,11 +1,12 @@
 # TSConfig
 
-Just extend it in your project's `tsconfig.json`:
+Just extend it in your project's `tsconfig.json`, for example:
 
 ```json
-// tsconfig.json
 {
   "extends": "@gmjs/tsconfig"
-  // rest of your config
+  "compilerOptions": {
+    "outDir": "./dist"
+  }
 }
 ```
