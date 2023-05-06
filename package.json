@@ -1,0 +1,26 @@
+{
+  "name": "@gmjs/tsconfig",
+  "version": "1.0.0",
+  "description": "Base TSConfig for my projects.",
+  "author": {
+    "name": "Goran Mržljak",
+    "email": "goran.mrzljak@gmail.com",
+    "url": "https://mrzli.com"
+  },
+  "main": "tsconfig.json",
+  "files": [],
+  "license": "MIT",
+  "keywords": [
+    "ts",
+    "typescript",
+    "tsconfig"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrzli/tsconfig"
+  },
+  "homepage": "https://github.com/mrzli/tsconfig",
+  "scripts": {
+    "pub": "npm publish --access public"
+  }
+}
