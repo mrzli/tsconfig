@@ -10,3 +10,9 @@ Just extend it in your project's `tsconfig.json`, for example:
   }
 }
 ```
+
+## Installation
+
+```bash
+npm install --save-dev @gmjs/tsconfig
+```
