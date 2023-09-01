@@ -1,0 +1,8 @@
+{
+  "extends": [
+    "./tsconfig.app-base.json",
+    "../modules/tsconfig.modules-browser.json",
+    "../emit/tsconfig.emit-app-browser.json",
+    "../language/tsconfig.language-browser.json"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    // "allowArbitraryExtensions": false, // don't completely understand this one, probably don't need it, https://www.typescriptlang.org/tsconfig#allowArbitraryExtensions
+    // "allowImportingTsExtensions": false, // relevant only when using ES modules and not emitting, https://www.typescriptlang.org/tsconfig#allowImportingTsExtensions
+    // "allowUmdGlobalAccess": false, // probably irrelevant for me
+    // "baseUrl": undefined, // allows resolving module names as non-relative paths, don't want this
+    // "customConditions": ["ts-loader"], // custom conditions for exporting, not needed, https://www.typescriptlang.org/tsconfig#customConditions
+    // "module": undefined, // defined for specific environment
+    // "moduleResolution": undefined, // defined for specific environment
+    // "moduleSuffixes": undefined, // not needed, https://www.typescriptlang.org/tsconfig#moduleSuffixes
+    // "noResolve": false, // imports/references will automatically be resolved when encountered, setting to true would prevent this, not desired
+    // "paths": {}, // not needed, https://www.typescriptlang.org/tsconfig#paths
+    // "resolveJsonModule": false, // off by default
+    // "resolvePackageJsonExports": true, // allows resolving module names from package.json exports field, on by default with node16, nodenext, or bundler moduleResoltuion, https://www.typescriptlang.org/tsconfig#resolvePackageJsonExports
+    // "resolvePackageJsonImports": true, // probably not needed
+    "rootDir": ".", // build are relative to '.' (the root of the project)
+    // "rootDirs": [], // sets up virtual directories, not needed, https://www.typescriptlang.org/tsconfig#rootDirs
+    // "typeRoots": ["./node_modules/@types"], // type root directories, default is fine, https://www.typescriptlang.org/tsconfig#typeRoots
+    "types": [] // no implicit (global scope) types
+  }
+}

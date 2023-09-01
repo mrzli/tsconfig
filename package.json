@@ -1,14 +1,12 @@
 {
   "name": "@gmjs/tsconfig",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Base TSConfig for my projects.",
   "author": {
     "name": "Goran Mržljak",
     "email": "goran.mrzljak@gmail.com",
     "url": "https://mrzli.com"
   },
-  "main": "tsconfig.json",
-  "files": [],
   "license": "MIT",
   "keywords": [
     "ts",
@@ -19,7 +17,17 @@
     "type": "git",
     "url": "https://github.com/mrzli/tsconfig"
   },
-  "homepage": "https://github.com/mrzli/tsconfig",
+  "exports": {
+    "./build": "./tsconfigs/root/tsconfig.root-build.json",
+    "./test": "./tsconfigs/root/tsconfig.root-test.json",
+    "./app-browser": "./tsconfigs/full/tsconfig.app-browser.json",
+    "./app-node": "./tsconfigs/full/tsconfig.app-node.json",
+    "./app-react": "./tsconfigs/full/tsconfig.app-react.json",
+    "./lib-browser": "./tsconfigs/full/tsconfig.lib-browser.json",
+    "./lib-node": "./tsconfigs/full/tsconfig.lib-node.json",
+    "./lib-react": "./tsconfigs/full/tsconfig.lib-react.json",
+    "./lib-shared": "./tsconfigs/full/tsconfig.lib-shared.json"
+  },
   "scripts": {
     "pub": "npm publish --access public"
   }

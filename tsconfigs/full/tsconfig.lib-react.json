@@ -1,0 +1,8 @@
+{
+  "extends": [
+    "./tsconfig.lib-base.json",
+    "../modules/tsconfig.modules-react.json",
+    "../emit/tsconfig.emit-lib-react.json",
+    "../language/tsconfig.language-react.json"
+  ]
+}

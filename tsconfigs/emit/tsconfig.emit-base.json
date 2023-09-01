@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    // "declaration": undefined, // emit .d.ts declarations, defined per environment
+    // "declarationDir": undefined, // dir where declarations are emitted, no need to change
+    // "declarationMap": false, // generates map files for debugging, not used at the moment
+    // "downlevelIteration": undefined, // keep as it is, https://www.typescriptlang.org/tsconfig#downlevelIteration
+    // "emitBOM": false, // don't need to emit byte order mark
+    // "emitDeclarationOnly": false, // don't emit only declarations, we want to emit code
+    // "importHelpers": undefined, // use tslib for import helpers defined per environment
+    // "inlineSourceMap": undefined, // don't change, https://www.typescriptlang.org/tsconfig#inlineSourceMap
+    // "inlineSources": undefined, // don't change, https://www.typescriptlang.org/tsconfig#inlineSources
+    // "mapRoot": undefined, // don't change, https://www.typescriptlang.org/tsconfig#mapRoot
+    "newLine": "lf", // use LF line endings
+    // "noEmit": undefined, // set true to not emit javascript source, source maps, or declaration files, defined per environment
+    // "noEmitHelpers": undefined, // don't set to true, use if you have a global scoped helpers instead of importing from tslib, or emitting, https://www.typescriptlang.org/tsconfig#noEmitHelpers
+    // "noEmitOnError": false, // keep at false (default), maybe true for libs
+    "outDir": "dist", // output directory for emitted files
+    // "outFile": undefined, // not used, outDir is used instead
+    // "preserveConstEnums": true, // default is true if isolatedModules is true
+    "removeComments": true // remove comments from emitted code
+    // "sourceMap": undefined, // don't change, probably false by default, https://www.typescriptlang.org/tsconfig#sourceMap
+    // "sourceRoot": undefined, // alternative location for finding ts sources, not used, https://www.typescriptlang.org/tsconfig#sourceRoot
+    // "stripInternal": undefined, // true to not emit declarations for code with @internal jsdoc, not used
+  }
+}

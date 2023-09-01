@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    // "allowUnreachableCode": undefined, // warning if unreachable code is found
+    // "allowUnusedLabels": undefined, // warning if unused labels are found
+    // "alwaysStrict": true, // true because 'strict: true'; "use strict" is always added to the top of files
+    "exactOptionalPropertyTypes": true, // requires explicit 'undefined' typing (union element as opposed to optional field) for explicit assignment of 'undefined' value
+    "noFallthroughCasesInSwitch": true, // prevent fallthrough cases in switch statements
+    // "noImplicitAny": true, // true because 'strict: true'; prevents implicit 'any' typing
+    "noImplicitOverride": true, // must explicitly use 'override' keyword when overriding a method
+    "noImplicitReturns": true, // all code paths in a function must return a value
+    // "noImplicitThis": true, // true because 'strict: true'; prevents 'this' expression on implicit 'any' type
+    "noPropertyAccessFromIndexSignature": true, // enforces explicit indexed access for index signatures (instead of dot notation)
+    "noUncheckedIndexedAccess": true, // automatically adds 'undefined' for un-declared (index) fields in a type
+    // "noUnusedLocals": false, // handled by lint
+    // "noUnusedParameters": false, // handled by lint
+    "strict": true // enables: alwaysStrict, strictBindCallApply, strictFunctionTypes, strictNullChecks, strictPropertyInitialization, noImplicitAny, noImplicitThis, useUnknownInCatchVariables
+    // "strictBindCallApply": true, // true because 'strict: true'; type checking for fn.call() calls
+    // "strictFunctionTypes": true, // true because 'strict: true'; type checking when assigning a function (as a value) to a variable (of a function type)
+    // "strictNullChecks": true, // true because 'strict: true'; don't ignore 'null' and 'undefined' when type checking
+    // "strictPropertyInitialization": false, // true because 'strict: true'; requires explicit initialization of class properties
+    // "useUnknownInCatchVariables": true, // true because 'strict: true'; use 'unknown' instead of 'any' for catch variables
+  }
+}

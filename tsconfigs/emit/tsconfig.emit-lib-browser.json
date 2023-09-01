@@ -1,0 +1,6 @@
+{
+  "extends": ["./tsconfig.emit-lib-base.json"],
+  "compilerOptions": {
+    "noEmit": false
+  }
+}

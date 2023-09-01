@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    // "allowJs": undefined, // I guess false by default
+    // "checkJs": undefined, // I guess false by default
+    // "maxNodeModuleJsDepth": undefined, // not needed now, https://www.typescriptlang.org/tsconfig#maxNodeModuleJsDepth
+  }
+}

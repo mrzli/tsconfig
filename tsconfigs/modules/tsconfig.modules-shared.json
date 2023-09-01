@@ -1,0 +1,7 @@
+{
+  "extends": ["./tsconfig.modules-base.json"],
+  "compilerOptions": {
+    "module": "CommonJS", // affects compilation output, 'CommonJS' is still best for backend, there some peculiarities when using ES modules in Node
+    "moduleResolution": "Bundler" // specifies how module files are located
+  }
+}

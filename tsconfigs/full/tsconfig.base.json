@@ -1,0 +1,8 @@
+{
+  "extends": [
+    "../type-checks/tsconfig.type-checks.json",
+    "../project/tsconfig.projects.json",
+    "../interop/tsconfig.interop.json",
+    "../javascript/tsconfig.javascript.json"
+  ]
+}

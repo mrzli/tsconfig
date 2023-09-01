@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    // "composite": true, // complicated option, see https://www.typescriptlang.org/tsconfig#composite\
+    // "disableReferencedProjectLoad": false, // irrelevant
+    // "disableSolutionSearching": false, // irrelevant
+    // "disableSourceOfProjectReferenceRedirect": false, // irrelevant
+    // "incremental": false, // defined per environment, https://www.typescriptlang.org/tsconfig#incremental
+    // "tsBuildInfoFile": undefined, // default is fine, irrelevant
+  }
+}

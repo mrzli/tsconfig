@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    // "allowSyntheticDefaultImports": true, // already true when esModuleInterop is true
+    "esModuleInterop": true, // allows "import React from 'react'", fixes some import issues, https://www.typescriptlang.org/tsconfig#esModuleInterop
+    // "forceConsistentCasingInFileNames": true, // already true by default
+    "isolatedModules": true, // avoids some runtime issues, requires all files to be modules (have import or export), https://www.typescriptlang.org/tsconfig#isolatedModules
+    // "preserveSymlinks": undefined, // not sure what this affects, https://www.typescriptlang.org/tsconfig#preserveSymlinks
+    "verbatimModuleSyntax": true // better handling of some import edge cases, will only drop imports explicitly marked with 'type', https://www.typescriptlang.org/tsconfig#verbatimModuleSyntax
+  }
+}

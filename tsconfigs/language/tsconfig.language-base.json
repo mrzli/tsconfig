@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "emitDecoratorMetadata": true, // runtime support for decorators
+    "experimentalDecorators": true // enable decorators
+    // "jsx": undefined, // controls how jsx are emitted to javascript, defined per environment, https://www.typescriptlang.org/tsconfig#jsx
+    // "jsxFactory": "React.createElement", // default is fine for React, change to "h" if using preact etc
+    // "jsxFragmentFactory": "React.Fragment", // default is fine for React, change if necessary
+    // "jsxImportSource": "react", // default is fine for React, change if necessary
+    // "lib": [], //  defined per environment, https://www.typescriptlang.org/tsconfig#lib
+    // "moduleDetection": "auto", // what files are considered modules, default is fine for now
+    // "noLib": undefined, // if true, would remove all library types and they would need to be explicitly defined, don't want this, https://www.typescriptlang.org/tsconfig#noLib
+    // "reactNamespace": "React", // default is fine
+    // target: "ES3", // define ES version of the output, this will be defined per environment, most likely ES2022
+    // "useDefineForClassFields": true, // true for ES2022+, use defineProperty for class fields, https://www.typescriptlang.org/tsconfig#useDefineForClassFields
+  }
+}

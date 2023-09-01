@@ -1,0 +1,6 @@
+{
+  "extends": [
+    "./tsconfig.base.json",
+    "../completeness/tsconfig.completeness-lib.json"
+  ]
+}

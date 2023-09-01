@@ -1,0 +1,6 @@
+{
+  "extends": ["./tsconfig.completeness-base.json"],
+  "compilerOptions": {
+    "skipLibCheck": false // don't skip for libs
+  }
+}
