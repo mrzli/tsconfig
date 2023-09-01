@@ -13,7 +13,7 @@
     // "resolveJsonModule": false, // off by default
     // "resolvePackageJsonExports": true, // allows resolving module names from package.json exports field, on by default with node16, nodenext, or bundler moduleResoltuion, https://www.typescriptlang.org/tsconfig#resolvePackageJsonExports
     // "resolvePackageJsonImports": true, // probably not needed
-    "rootDir": ".", // build are relative to '.' (the root of the project)
+    // "rootDir": ".", // root dir for output, needs to be set in the project tsconfig because this is relative to the tsconfig.json itself
     // "rootDirs": [], // sets up virtual directories, not needed, https://www.typescriptlang.org/tsconfig#rootDirs
     // "typeRoots": ["./node_modules/@types"], // type root directories, default is fine, https://www.typescriptlang.org/tsconfig#typeRoots
     "types": [] // no implicit (global scope) types

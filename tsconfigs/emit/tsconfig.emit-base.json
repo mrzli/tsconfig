@@ -14,7 +14,7 @@
     // "noEmit": undefined, // set true to not emit javascript source, source maps, or declaration files, defined per environment
     // "noEmitHelpers": undefined, // don't set to true, use if you have a global scoped helpers instead of importing from tslib, or emitting, https://www.typescriptlang.org/tsconfig#noEmitHelpers
     // "noEmitOnError": false, // keep at false (default), maybe true for libs
-    "outDir": "dist", // output directory for emitted files
+    // "outDir": "./dist", // output directory for emitted, needs to be set in the project tsconfig because this is relative to the tsconfig.json itself
     // "outFile": undefined, // not used, outDir is used instead
     // "preserveConstEnums": true, // default is true if isolatedModules is true
     "removeComments": true // remove comments from emitted code
