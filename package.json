@@ -1,6 +1,6 @@
 {
   "name": "@gmjs/tsconfig",
-  "version": "1.0.3",
+  "version": "1.0.6",
   "description": "Base TSConfig for my projects.",
   "author": {
     "name": "Goran Mržljak",
@@ -18,13 +18,7 @@
     "url": "https://github.com/mrzli/tsconfig"
   },
   "exports": {
-    "./app-browser": "./tsconfigs/full/tsconfig.app-browser.json",
-    "./app-node": "./tsconfigs/full/tsconfig.app-node.json",
-    "./app-react": "./tsconfigs/full/tsconfig.app-react.json",
-    "./lib-browser": "./tsconfigs/full/tsconfig.lib-browser.json",
-    "./lib-node": "./tsconfigs/full/tsconfig.lib-node.json",
-    "./lib-react": "./tsconfigs/full/tsconfig.lib-react.json",
-    "./lib-shared": "./tsconfigs/full/tsconfig.lib-shared.json"
+    ".": "./tsconfig.json"
   },
   "scripts": {
     "pub": "npm publish --access public"

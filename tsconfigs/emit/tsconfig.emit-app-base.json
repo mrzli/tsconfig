@@ -1,7 +1,0 @@
-{
-  "extends": ["./tsconfig.emit-base.json"],
-  "compilerOptions": {
-    "declaration": false // don't generate .d.ts files for apps
-    // "importHelpers": true, // should I use this for apps?
-  }
-}

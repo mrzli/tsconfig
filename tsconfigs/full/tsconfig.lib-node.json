@@ -1,8 +1,0 @@
-{
-  "extends": [
-    "./tsconfig.lib-base.json",
-    "../modules/tsconfig.modules-node.json",
-    "../emit/tsconfig.emit-lib-node.json",
-    "../language/tsconfig.language-node.json"
-  ]
-}

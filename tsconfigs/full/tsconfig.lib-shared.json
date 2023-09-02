@@ -1,8 +1,0 @@
-{
-  "extends": [
-    "./tsconfig.lib-base.json",
-    "../modules/tsconfig.modules-shared.json",
-    "../emit/tsconfig.emit-lib-shared.json",
-    "../language/tsconfig.language-shared.json"
-  ]
-}

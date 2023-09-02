@@ -1,6 +1,0 @@
-{
-  "extends": ["./tsconfig.emit-app-base.json"],
-  "compilerOptions": {
-    "noEmit": true // don't emit any files, handled by Babel
-  }
-}

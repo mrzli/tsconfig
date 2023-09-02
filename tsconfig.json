@@ -1,0 +1,137 @@
+{
+  "compilerOptions": {
+    // TYPE CHECKS
+    // "allowUnreachableCode": undefined, // warning if unreachable code is found
+    // "allowUnusedLabels": undefined, // warning if unused labels are found
+    // "alwaysStrict": true, // true because 'strict: true'; "use strict" is always added to the top of files
+    "exactOptionalPropertyTypes": true, // requires explicit 'undefined' typing (union element as opposed to optional field) for explicit assignment of 'undefined' value
+    "noFallthroughCasesInSwitch": true, // prevent fallthrough cases in switch statements
+    // "noImplicitAny": true, // true because 'strict: true'; prevents implicit 'any' typing
+    "noImplicitOverride": true, // must explicitly use 'override' keyword when overriding a method
+    "noImplicitReturns": true, // all code paths in a function must return a value
+    // "noImplicitThis": true, // true because 'strict: true'; prevents 'this' expression on implicit 'any' type
+    "noPropertyAccessFromIndexSignature": true, // enforces explicit indexed access for index signatures (instead of dot notation)
+    "noUncheckedIndexedAccess": true, // automatically adds 'undefined' for un-declared (index) fields in a type
+    // "noUnusedLocals": false, // handled by lint
+    // "noUnusedParameters": false, // handled by lint
+    "strict": true, // enables: alwaysStrict, strictBindCallApply, strictFunctionTypes, strictNullChecks, strictPropertyInitialization, noImplicitAny, noImplicitThis, useUnknownInCatchVariables
+    // "strictBindCallApply": true, // true because 'strict: true'; type checking for fn.call() calls
+    // "strictFunctionTypes": true, // true because 'strict: true'; type checking when assigning a function (as a value) to a variable (of a function type)
+    // "strictNullChecks": true, // true because 'strict: true'; don't ignore 'null' and 'undefined' when type checking
+    // "strictPropertyInitialization": false, // true because 'strict: true'; requires explicit initialization of class properties
+    // "useUnknownInCatchVariables": true, // true because 'strict: true'; use 'unknown' instead of 'any' for catch variables
+
+    // PROJECTS
+    // "composite": true, // complicated option, see https://www.typescriptlang.org/tsconfig#composite\
+    // "disableReferencedProjectLoad": false, // irrelevant
+    // "disableSolutionSearching": false, // irrelevant
+    // "disableSourceOfProjectReferenceRedirect": false, // irrelevant
+    // "incremental": false, // defined per environment, https://www.typescriptlang.org/tsconfig#incremental
+    // "tsBuildInfoFile": undefined, // default is fine, irrelevant
+
+    // EMIT
+    // "declaration": undefined, // emit .d.ts declarations, defined per environment
+    // "declarationDir": undefined, // dir where declarations are emitted, no need to change
+    // "declarationMap": false, // generates map files for debugging, not used at the moment
+    // "downlevelIteration": undefined, // keep as it is, https://www.typescriptlang.org/tsconfig#downlevelIteration
+    // "emitBOM": false, // don't need to emit byte order mark
+    // "emitDeclarationOnly": false, // don't emit only declarations, we want to emit code
+    "importHelpers": true, // use tslib for import helpers
+    // "inlineSourceMap": undefined, // don't change, https://www.typescriptlang.org/tsconfig#inlineSourceMap
+    // "inlineSources": undefined, // don't change, https://www.typescriptlang.org/tsconfig#inlineSources
+    // "mapRoot": undefined, // don't change, https://www.typescriptlang.org/tsconfig#mapRoot
+    "newLine": "lf", // use LF line endings
+    // "noEmit": undefined, // set true to not emit javascript source, source maps, or declaration files, defined per environment
+    // "noEmitHelpers": undefined, // don't set to true, use if you have a global scoped helpers instead of importing from tslib, or emitting, https://www.typescriptlang.org/tsconfig#noEmitHelpers
+    // "noEmitOnError": false, // keep at false (default), maybe true for libs
+    // "outDir": "./dist", // output directory for emitted, needs to be set in the project tsconfig because this is relative to the tsconfig.json itself
+    // "outFile": undefined, // not used, outDir is used instead
+    // "preserveConstEnums": true, // default is true if isolatedModules is true
+    "removeComments": true, // remove comments from emitted code
+    // "sourceMap": undefined, // don't change, probably false by default, https://www.typescriptlang.org/tsconfig#sourceMap
+    // "sourceRoot": undefined, // alternative location for finding ts sources, not used, https://www.typescriptlang.org/tsconfig#sourceRoot
+    // "stripInternal": undefined, // true to not emit declarations for code with @internal jsdoc, not used
+    // EMIT - LIB
+    // "declaration": true,
+    // EMIT - REACT
+    // "noEmit": true,
+
+    // INTEROP
+    // "allowSyntheticDefaultImports": true, // already true when esModuleInterop is true
+    "esModuleInterop": true, // allows "import React from 'react'", fixes some import issues, https://www.typescriptlang.org/tsconfig#esModuleInterop
+    // "forceConsistentCasingInFileNames": true, // already true by default
+    "isolatedModules": true, // avoids some runtime issues, requires all files to be modules (have import or export), https://www.typescriptlang.org/tsconfig#isolatedModules
+    // "preserveSymlinks": undefined, // not sure what this affects, https://www.typescriptlang.org/tsconfig#preserveSymlinks
+    // "verbatimModuleSyntax": false, // better handling of some import edge cases, will only drop imports explicitly marked with 'type', does not work yet, https://www.typescriptlang.org/tsconfig#verbatimModuleSyntax
+
+    // JAVASCRIPT
+    // "allowJs": undefined, // I guess false by default
+    // "checkJs": undefined, // I guess false by default
+    // "maxNodeModuleJsDepth": undefined, // not needed now, https://www.typescriptlang.org/tsconfig#maxNodeModuleJsDepth
+
+    // COMPLETENESS
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+
+    // LANGUAGE
+    "emitDecoratorMetadata": true, // runtime support for decorators
+    "experimentalDecorators": true, // enable decorators
+    // "jsx": undefined, // controls how jsx are emitted to javascript, defined per environment, https://www.typescriptlang.org/tsconfig#jsx
+    // "jsxFactory": "React.createElement", // default is fine for React, change to "h" if using preact etc
+    // "jsxFragmentFactory": "React.Fragment", // default is fine for React, change if necessary
+    // "jsxImportSource": "react", // default is fine for React, change if necessary
+    // "lib": [], //  defined per environment, https://www.typescriptlang.org/tsconfig#lib
+    // "moduleDetection": "auto", // what files are considered modules, default is fine for now
+    // "noLib": undefined, // if true, would remove all library types and they would need to be explicitly defined, don't want this, https://www.typescriptlang.org/tsconfig#noLib
+    // "reactNamespace": "React", // default is fine
+    // "target": "ES3", // define ES version of the output, this will be defined per environment, most likely ES2022
+    // "useDefineForClassFields": true, // true for ES2022+, use defineProperty for class fields, https://www.typescriptlang.org/tsconfig#useDefineForClassFields
+    // LANGUAGE - SHARED
+    // "lib": ["ES2022"],
+    // "target": "ES2022",
+    // LANGUAGE - NODE
+    // "lib": ["ES2022"],
+    // "target": "ES2022",
+    // LANGUAGE - BROWSER
+    // "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    // "target": "ES2022",
+    // LANGUAGE - REACT
+    // "jsx": "react-jsx",
+    // "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    // "target": "ES2022",
+
+    // MODULES
+    // "allowArbitraryExtensions": false, // don't completely understand this one, probably don't need it, https://www.typescriptlang.org/tsconfig#allowArbitraryExtensions
+    // "allowImportingTsExtensions": false, // relevant only when using ES modules and not emitting, https://www.typescriptlang.org/tsconfig#allowImportingTsExtensions
+    // "allowUmdGlobalAccess": false, // probably irrelevant for me
+    // "baseUrl": undefined, // allows resolving module names as non-relative paths, don't want this
+    // "customConditions": ["ts-loader"], // custom conditions for exporting, not needed, https://www.typescriptlang.org/tsconfig#customConditions
+    // "module": undefined, // affects compilation output, defined for specific environment
+    // "moduleResolution": undefined, // specifies how module files are located, defined for specific environment
+    // "moduleSuffixes": undefined, // not needed, https://www.typescriptlang.org/tsconfig#moduleSuffixes
+    // "noResolve": false, // imports/references will automatically be resolved when encountered, setting to true would prevent this, not desired
+    // "paths": {}, // not needed, https://www.typescriptlang.org/tsconfig#paths
+    // "resolveJsonModule": false, // off by default
+    // "resolvePackageJsonExports": true, // allows resolving module names from package.json exports field, on by default with node16, nodenext, or bundler moduleResoltuion, https://www.typescriptlang.org/tsconfig#resolvePackageJsonExports
+    // "resolvePackageJsonImports": true, // probably not needed
+    // "rootDir": ".", // root dir for output, needs to be set in the project tsconfig because this is relative to the tsconfig.json itself
+    // "rootDirs": [], // sets up virtual directories, not needed, https://www.typescriptlang.org/tsconfig#rootDirs
+    // "typeRoots": ["./node_modules/@types"], // type root directories, default is fine, https://www.typescriptlang.org/tsconfig#typeRoots
+    "types": [], // no implicit (global scope) types
+    // MODULES - SHARED
+    // "module": "CommonJS",
+    // "moduleResolution": "Node",
+    // MODULES - NODE
+    // "module": "CommonJS",
+    // "moduleResolution": "Node",
+    // MODULES - BROWSER
+    // "module": "ES2022",
+    // "moduleResolution": "Bundler",
+    // "resolveJsonModule": true,
+    // MODULES - REACT
+    // "allowImportingTsExtensions": true,
+    // "module": "ES2022", // affects compilation output, most browsers will support this
+    // "moduleResolution": "Bundler", // specifies how module files are located
+    // "resolveJsonModule": true,
+  }
+}

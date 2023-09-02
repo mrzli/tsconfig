@@ -1,7 +1,0 @@
-{
-  "extends": ["./tsconfig.emit-base.json"],
-  "compilerOptions": {
-    "declaration": true, // generates .d.ts files
-    "importHelpers": true // import helpers from tslib
-  }
-}

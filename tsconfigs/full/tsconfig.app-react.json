@@ -1,8 +1,0 @@
-{
-  "extends": [
-    "./tsconfig.app-base.json",
-    "../modules/tsconfig.modules-react.json",
-    "../emit/tsconfig.emit-app-react.json",
-    "../language/tsconfig.language-react.json"
-  ]
-}

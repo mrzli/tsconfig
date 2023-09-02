@@ -1,8 +1,0 @@
-{
-  "extends": ["./tsconfig.modules-base.json"],
-  "compilerOptions": {
-    "module": "ES2022", // affects compilation output, most browsers will support this
-    "moduleResolution": "Bundler", // specifies how module files are located
-    "resolveJsonModule": true
-  }
-}
