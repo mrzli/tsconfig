@@ -1,6 +1,6 @@
 {
   "name": "@gmjs/tsconfig",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Base TSConfig for my projects.",
   "author": {
     "name": "Goran Mržljak",
@@ -17,9 +17,7 @@
     "type": "git",
     "url": "https://github.com/mrzli/tsconfig"
   },
-  "exports": {
-    ".": "./tsconfig.json"
-  },
+  "main": "./tsconfig.json",
   "scripts": {
     "pub": "npm publish --access public"
   }
