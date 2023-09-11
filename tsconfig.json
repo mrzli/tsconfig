@@ -4,7 +4,7 @@
     // "allowUnreachableCode": undefined, // warning if unreachable code is found
     // "allowUnusedLabels": undefined, // warning if unused labels are found
     // "alwaysStrict": true, // true because 'strict: true'; "use strict" is always added to the top of files
-    "exactOptionalPropertyTypes": true, // requires explicit 'undefined' typing (union element as opposed to optional field) for explicit assignment of 'undefined' value
+    // "exactOptionalPropertyTypes": false, // if true requires explicit 'undefined' typing (union element as opposed to optional field) for explicit assignment of 'undefined' value; non needed, sometimes complicates code unnecessarily
     "noFallthroughCasesInSwitch": true, // prevent fallthrough cases in switch statements
     // "noImplicitAny": true, // true because 'strict: true'; prevents implicit 'any' typing
     "noImplicitOverride": true, // must explicitly use 'override' keyword when overriding a method
