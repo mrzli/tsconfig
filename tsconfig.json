@@ -11,7 +11,7 @@
     "noImplicitReturns": true, // all code paths in a function must return a value
     // "noImplicitThis": true, // true because 'strict: true'; prevents 'this' expression on implicit 'any' type
     "noPropertyAccessFromIndexSignature": true, // enforces explicit indexed access for index signatures (instead of dot notation)
-    "noUncheckedIndexedAccess": true, // automatically adds 'undefined' for un-declared (index) fields in a type
+    // "noUncheckedIndexedAccess": false, // if true, automatically adds 'undefined' for un-declared (index) fields in a type; too tedious to use
     // "noUnusedLocals": false, // handled by lint
     // "noUnusedParameters": false, // handled by lint
     "strict": true, // enables: alwaysStrict, strictBindCallApply, strictFunctionTypes, strictNullChecks, strictPropertyInitialization, noImplicitAny, noImplicitThis, useUnknownInCatchVariables
