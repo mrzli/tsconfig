@@ -87,17 +87,17 @@
     // "target": "ES3", // define ES version of the output, this will be defined per environment, most likely ES2022
     // "useDefineForClassFields": true, // true for ES2022+, use defineProperty for class fields, https://www.typescriptlang.org/tsconfig#useDefineForClassFields
     // LANGUAGE - SHARED
-    // "lib": ["ES2022"],
+    // "lib": ["ES2023"],
     // "target": "ES2022",
     // LANGUAGE - NODE
-    // "lib": ["ES2022"],
+    // "lib": ["ES2023"],
     // "target": "ES2022",
     // LANGUAGE - BROWSER
-    // "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    // "lib": ["ES2023", "DOM", "DOM.Iterable"],
     // "target": "ES2022",
     // LANGUAGE - REACT
     // "jsx": "react-jsx",
-    // "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    // "lib": ["ES2023", "DOM", "DOM.Iterable"],
     // "target": "ES2022",
 
     // MODULES
@@ -125,12 +125,12 @@
     // "module": "CommonJS",
     // "moduleResolution": "Node",
     // MODULES - BROWSER
-    // "module": "ES2022",
+    // "module": "ESNext",
     // "moduleResolution": "Bundler",
     // "resolveJsonModule": true,
     // MODULES - REACT
     // "allowImportingTsExtensions": true,
-    // "module": "ES2022", // affects compilation output, most browsers will support this
+    // "module": "ESNext", // affects compilation output, most browsers will support this
     // "moduleResolution": "Bundler", // specifies how module files are located
     // "resolveJsonModule": true,
   }
