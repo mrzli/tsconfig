@@ -117,7 +117,7 @@
     // "rootDir": ".", // root dir for output, needs to be set in the project tsconfig because this is relative to the tsconfig.json itself
     // "rootDirs": [], // sets up virtual directories, not needed, https://www.typescriptlang.org/tsconfig#rootDirs
     // "typeRoots": ["./node_modules/@types"], // type root directories, default is fine, https://www.typescriptlang.org/tsconfig#typeRoots
-    "types": [], // no implicit (global scope) types
+    "types": [] // no implicit (global scope) types
     // MODULES - SHARED
     // "module": "CommonJS",
     // "moduleResolution": "Node",
@@ -125,8 +125,8 @@
     // "module": "CommonJS",
     // "moduleResolution": "Node",
     // MODULES - BROWSER
-    // "module": "ESNext",
-    // "moduleResolution": "Bundler",
+    // "module": "CommonJS",
+    // "moduleResolution": "Node",
     // "resolveJsonModule": true,
     // MODULES - REACT
     // "allowImportingTsExtensions": true,

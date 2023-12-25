@@ -1,6 +1,6 @@
 {
   "name": "@gmjs/tsconfig",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Base TSConfig for my projects.",
   "author": {
     "name": "Goran Mržljak",
